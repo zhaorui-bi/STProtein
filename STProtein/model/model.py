@@ -118,7 +118,9 @@ class GATConv_Encoder(torch.nn.Module):
 
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
+        x = x.tanh()
         x = self.conv2(x, edge_index)
+        x = x.tanh()
         return x 
 
 class TransformerConv_Decoder(torch.nn.Module):
@@ -129,7 +131,9 @@ class TransformerConv_Decoder(torch.nn.Module):
 
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
+        x = x.tanh()
         x = self.conv2(x, edge_index)
+        x = x.tanh()
         return x
 
 class TransformerConv_Encoder(torch.nn.Module):
@@ -151,12 +155,11 @@ class STProtein(torch.nn.Module):
 
         [in_dim1, out_dim] = hidden_dims
         self.conv1_enc = Conv_Encoder(in_dim1, out_dim)
-        # self.fc=nn.Linear(out_dim, out_dim)
+        self.fc=nn.Linear(out_dim, out_dim)
         self.conv1_dec = Conv_Decoder(out_dim, in_dim1)
 
     def forward(self, features1, edge_index1):
         x1 = self.conv1_enc(features1, edge_index1)
-        # x=self.fc(x1)
         x1_rec = self.conv1_dec(x1, edge_index1)
-
+        # x1_rec = self.fc(x1_rec)
         return x1, x1_rec
