@@ -151,7 +151,7 @@ class STProtein(torch.nn.Module):
 
         [in_dim1, out_dim] = hidden_dims
         self.conv1_enc = Conv_Encoder(in_dim1, out_dim)
-        self.fc=nn.Linear(out_dim, out_dim)
+        # self.fc=nn.Linear(out_dim, out_dim)
         self.conv1_dec = Conv_Decoder(out_dim, in_dim1)
 
     def forward(self, features1, edge_index1):
