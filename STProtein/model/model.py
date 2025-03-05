@@ -156,7 +156,7 @@ class STProtein(torch.nn.Module):
 
     def forward(self, features1, edge_index1):
         x1 = self.conv1_enc(features1, edge_index1)
-        x=self.fc(x1)
-        x1_rec = self.conv1_dec(x, edge_index1)
+        # x=self.fc(x1)
+        x1_rec = self.conv1_dec(x1, edge_index1)
 
         return x1, x1_rec
