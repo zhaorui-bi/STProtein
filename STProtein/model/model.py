@@ -69,7 +69,8 @@ class GCN2Conv_Decoder(torch.nn.Module):
         super(GCN2Conv_Decoder, self).__init__()
         self.conv1 = GCN2Conv(in_channels, in_channels, normalize=True)
         self.conv2 = GCN2Conv(in_channels, out_channels, normalize=True)
-
+        self.fc=nn.Linear(out_channels, out_channels)
+        
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
         x = self.conv2(x, edge_index)
@@ -96,12 +97,14 @@ class GATv2Conv_Decoder(torch.nn.Module):
         super(GATv2Conv_Decoder, self).__init__()
         self.conv1 = GATv2Conv(in_channels, in_channels,heads=2,concat=False)
         self.conv2 = GATv2Conv(in_channels, out_channels,heads=2,concat=False)
-
+        self.fc=nn.Linear(out_channels, out_channels)
+        
     def forward(self, x, edge_index):
         x = self.conv1(x, edge_index)
         x = x.tanh()
         x = self.conv2(x, edge_index)
-        x = x.tanh()
+        x = self.fc(x)
+        # x = x.tanh()
         return x
 
 
