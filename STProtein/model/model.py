@@ -87,8 +87,8 @@ class GATv2Conv_Encoder(torch.nn.Module):
         x = self.conv1(x, edge_index)
         x = x.tanh()
         x = self.conv2(x, edge_index)
+        x = x.tanh()
         x = self.fc(x)
-        # x = x.tanh()
         return x
 
 
@@ -103,8 +103,8 @@ class GATv2Conv_Decoder(torch.nn.Module):
         x = self.conv1(x, edge_index)
         x = x.tanh()
         x = self.conv2(x, edge_index)
+        x = x.tanh()
         x = self.fc(x)
-        # x = x.tanh()
         return x
 
 
