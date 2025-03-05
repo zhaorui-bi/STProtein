@@ -165,7 +165,8 @@ class STProtein(torch.nn.Module):
         self.conv1_dec = Conv_Decoder(out_dim, in_dim1)
 
     def forward(self, features1, edge_index1):
-        x1 = self.conv1_enc(features1, edge_index1)
-        x1_rec = self.conv1_dec(x1, edge_index1)
+        z = self.conv1_enc(features1, edge_index1)
+        
+        x1_rec = self.conv1_dec(z, edge_index1)
         # x1_rec = self.fc(x1_rec)
-        return x1, x1_rec
+        return z, x1_rec
