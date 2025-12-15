@@ -1,10 +1,28 @@
 # STProtein
 
-STProtein: predicting spatial protein expression from multi-omics data
+## 📣 News
 
-Accepted by SPARTA AAAI 2026 Oral
+* **[2025/01/26]**:🤗 I will give a oral presentation about STProtein on SPARTA AAAI 2026 Top Conference
+* **[2024/11/18]**:🤗 **STProtein: predicting spatial protein expression from multi-omics data** is accepted by [SPARTA AAAI 2026 Oral](https://openreview.net/forum?id=lwerpnT8g3).
 
-> @inproceedings{
+## 🌉 Workflow of STProetin
+
+## 💻 SYSTEM REQUIREMENTS
+
+STProtein is tested on Nvidia RTX 4090D. 
+
+## ⏬ INSTALLATION
+
+
+## 🔒 License
+* See [LICENSE](LICENSE) for details.
+  
+## ✏️ Citation
+
+If you use this software in your research, please cite our paper:
+
+```bibtex
+@inproceedings{
 jiang2025stprotein,
 title={{STP}rotein: predicting spatial protein expression from multi-omics data},
 author={Zhaorui Jiang and Yingfang Yuan and Lei Hu and Wei Pang},
@@ -12,3 +30,4 @@ booktitle={1st AAAI Workshop on SPARTA {\textemdash} Spatial Reasoning and Thera
 year={2025},
 url={https://openreview.net/forum?id=lwerpnT8g3}
 }
+```
