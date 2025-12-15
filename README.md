@@ -1,5 +1,8 @@
 # STProtein
 
+STProtein: predicting spatial protein expression from multi-omics data
+
+Accepted by SPARTA_AAAI2026 Oral
 
 > @inproceedings{
 jiang2025stprotein,
