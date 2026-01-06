@@ -6,10 +6,8 @@
 * **[2024/11/18]**:🤗 **STProtein: predicting spatial protein expression from multi-omics data** is accepted by [SPARTA AAAI 2026 Oral](https://openreview.net/forum?id=lwerpnT8g3).
 
 ## 🌉 Workflow of STProetin
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img src="fig/framework4.jpg" style="zoom: 35%;" />
-  <img src="fig/framework3.png" style="zoom: 35%;" />
-</div>
+
+<img src="fig/framework3.png" style="zoom: 10%;" />
 
 
 ## 💻 SYSTEM REQUIREMENTS
