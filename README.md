@@ -7,6 +7,11 @@
 
 ## 🌉 Workflow of STProetin
 
+<img src="fig/framework4.jpg" style="zoom: 75%;" />
+
+<img src="fig/framework3.png" style="zoom: 60%;" />
+
+
 ## 💻 SYSTEM REQUIREMENTS
 
 STProtein is tested on Nvidia RTX 4090D. 
