@@ -16,6 +16,17 @@ STProtein is tested on Nvidia RTX 4090D.
 
 ## ⏬ INSTALLATION
 
+```bibtex
+scanpy
+torch
+torch-geometric
+numpy
+pandas
+scikit-learn
+seaborn
+matplotlib
+tqdm
+```
 
 ## 🔒 License
 * See [LICENSE](LICENSE) for details.
