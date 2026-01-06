@@ -7,7 +7,7 @@
 
 ## 🌉 Workflow of STProetin
 
-<img src="fig/framework4.jpg" style="zoom: 40%;" /><img src="fig/framework3.png" style="zoom: 40%;" />
+<img src="fig/framework4.jpg" style="zoom: 40%;" /> <img src="fig/framework3.png" style="zoom: 40%;" />
 
 
 ## 💻 SYSTEM REQUIREMENTS
