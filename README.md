@@ -12,7 +12,7 @@
 
 ## 💻 SYSTEM REQUIREMENTS
 
-STProtein is tested on Nvidia RTX 4090D. 
+STProtein is tested on single Nvidia RTX 4090. 
 
 ## ⏬ INSTALLATION
 
