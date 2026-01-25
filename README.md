@@ -1,5 +1,7 @@
 # STProtein
 
+<img src="fig/aaai_workshop.png" style="zoom: 10%;" />
+
 ## 📣 News
 
 * **[2025/01/26]**:🤗 I will give the oral presentation about STProtein on [SPARTA AAAI 2026](https://spartaaaai2026-workshop.github.io/SPARTA_AAAI_workshop_2026/) Top Conference
