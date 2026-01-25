@@ -1,4 +1,4 @@
-# STProtein
+# SPARTA AAAI 2026 Oral | STProtein
 
 <img src="fig/aaai_workshop.png" style="zoom: 10%;" />
 
