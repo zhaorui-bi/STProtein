@@ -2,7 +2,7 @@
 
 ## 📣 News
 
-* **[2025/01/26]**:🤗 I will give the oral presentation about STProtein on SPARTA AAAI 2026 Top Conference
+* **[2025/01/26]**:🤗 I will give the oral presentation about STProtein on [SPARTA AAAI 2026](https://spartaaaai2026-workshop.github.io/SPARTA_AAAI_workshop_2026/) Top Conference
 * **[2024/11/18]**:🤗 **STProtein: predicting spatial protein expression from multi-omics data** is accepted by [SPARTA AAAI 2026 Oral](https://openreview.net/forum?id=lwerpnT8g3).
 
 ## 🌉 Workflow of STProetin
