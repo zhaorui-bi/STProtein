@@ -3,7 +3,7 @@
 <img src="fig/aaai_workshop.png" style="zoom: 10%;" />
 
 ## 📣 News
-* **[2025/02/05]**:🤗 **[STProtein: predicting spatial protein expression from multi-omics data](https://arxiv.org/abs/2602.05811v1)** published [**SPARTA AAAI 2026**](https://spartaaaai2026-workshop.github.io/SPARTA_AAAI_workshop_2026/) **Top Conference** can be seen in Arxiv
+* **[2025/02/05]**:🤗 **[STProtein: predicting spatial protein expression from multi-omics data](https://arxiv.org/abs/2602.05811v1)** published [**SPARTA AAAI 2026**](https://spartaaaai2026-workshop.github.io/SPARTA_AAAI_workshop_2026/) **Top Conference** can be seen in arXiv: https://arxiv.org/abs/2602.05811v1
 * **[2025/01/26]**:🤗 I will give the **Oral presentation** about STProtein on [**SPARTA AAAI 2026**](https://spartaaaai2026-workshop.github.io/SPARTA_AAAI_workshop_2026/) **Top Conference**
 * **[2024/11/18]**:🤗 **[STProtein: predicting spatial protein expression from multi-omics data](https://openreview.net/forum?id=lwerpnT8g3)** is accepted by Spatial Reasoning and Therapeutics with AI : From Omics to Imaging (SPARTA)  AAAI 2026 **Oral**.
 
